@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirby Wayne Guintu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="kirby.jpg" alt="Kirby Wayne Guintu" class="profile-pic" />
+    <h1>Kirby Wayne Guintu</h1>
+    <p>Graphic Designer | UI/UX Enthusiast | Creative Problem Solver</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Kirby, a passionate designer focused on creating meaningful and aesthetic digital experiences. I specialize in UI/UX design, branding, and multimedia content.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <h3>Hobby</h3>
+      <p>Playing Volleyball, Video Games, Pusoy Dos</p>
+    </div>
+    <div class="project">
+      <h3>Project</h3>
+      <p>Personal Website</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
